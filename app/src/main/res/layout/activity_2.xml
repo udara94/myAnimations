@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.myanimation.Activity2">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <EditText
+            android:layout_width = "match_parent"
+            android:layout_height = "200dp"
+            android:id = "@+id/editText"
+            android:hint = "Enter Script"
+            android:focusable = "true"
+            android:layout_marginTop = "46dp"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:id="@+id/btnC"
+            android:text="C"
+            android:onClick="ButtonClicked"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:id="@+id/btnD"
+            android:text="D"
+            android:onClick="ButtonClicked"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:text="E"
+            android:id="@+id/btnE"
+            android:onClick="ButtonClicked"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:text="F"
+            android:id="@+id/btnF"
+            android:onClick="ButtonClicked"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/turquoise"
+            android:text="G"
+            android:id="@+id/btnG"
+            android:onClick="ButtonClicked"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:text="A"
+            android:id="@+id/btnA"
+            android:onClick="ButtonClicked"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple"
+            android:text="B"
+            android:id="@+id/btnB"
+            android:onClick="ButtonClicked"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:text="Play"
+        android:id="@+id/btnPlay"
+       android:onClick="Play"
+        />
+
+</LinearLayout>
