@@ -95,6 +95,14 @@
             android:background="@color/purple"
             android:text="B"
             android:id="@+id/btnB"
+            android:onClick="ButtonClicked"
+            android:layout_marginRight="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_primary"
+            android:text="New Line"
+            android:id="@+id/btnNewLine"
             android:onClick="ButtonClicked"/>
 
 
